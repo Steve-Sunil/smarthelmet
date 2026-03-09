@@ -5,7 +5,7 @@ import os
 import google.generativeai as genai
 
 # ---------- GEMINI API ----------
-genai.configure(api_key=os.getenv("AIzaSyCIcOYsKmjeAOZGM407UIJLAxysxSIDGl0"))
+genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 model = genai.GenerativeModel("gemini-pro")
 
 app = Flask(__name__)

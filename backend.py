@@ -34,7 +34,7 @@ def check_worker_status(heartbeat, temperature, mq7, mq2, fall):
 # -------------------------
 @app.route("/")
 def home():
-    return render_template("index.html")
+    return render_template("dashboard.html")
 
 
 # -------------------------
